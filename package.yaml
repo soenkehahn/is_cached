@@ -1,0 +1,10 @@
+name: is-cached
+executables:
+  "is-cached":
+    main: Main.hs
+    dependencies:
+      - base
+      - getopt-generics
+      - lens
+      - shake
+      - wreq
